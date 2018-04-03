@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "camelcase": "^5.0.0",
+    "cytoscape": "^3.2.11"
+  },
+  "name": "cyto",
+  "version": "1.0.0",
+  "main": "test.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robin James Kerrison",
+  "license": "ISC",
+  "description": ""
+}
