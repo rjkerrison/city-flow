@@ -1,0 +1,36 @@
+[
+  {
+    "name": "San Francisco",
+    "connections": [
+      {
+        "target": "Los Angeles",
+        "distance": 5
+      },
+      {
+        "target": "Olympia",
+        "distance": 14
+      }
+    ],
+    "bearers": 300
+  },
+  {
+    "name": "Olympia",
+    "connections": [
+      {
+        "target": "Seattle",
+        "distance": 2
+      }
+    ],
+    "bearers": 100
+  },
+  {
+    "name": "Seattle",
+    "connections": [],
+    "bearers": 200
+  },
+  {
+    "name": "Los Angeles",
+    "connections": [],
+    "bearers": 400
+  }
+]
