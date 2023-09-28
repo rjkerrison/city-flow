@@ -1,16 +1,20 @@
 {
   "dependencies": {
-    "camelcase": "^5.0.0",
-    "cytoscape": "^3.2.11"
+    "camelcase": "^5.2.0",
+    "cytoscape": "^3.19.11"
   },
   "name": "cyto",
   "version": "1.0.0",
-  "main": "test.js",
-  "devDependencies": {},
+  "main": "play.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc && node dist/index.js"
   },
   "author": "Robin James Kerrison",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@types/cytoscape": "^3.19.11",
+    "@types/node": "^20.7.1",
+    "typescript": "^5.2.2"
+  }
 }
